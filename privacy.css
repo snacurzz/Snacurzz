@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #131313;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+header {
+  background-color: #292929;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-family: 'Pacifico', sans-serif;
+  color: deeppink;
+}
+
+header .container {
+  padding: 20px;
+}
+
+header nav {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: none;
+  transition: 600ms;
+}
+
+header nav a:hover {
+  color: deeppink;
+}
+
+header nav ul .underline {
+  text-decoration: underline;
+  text-decoration-color: deeppink;
+  text-underline-offset: 13px;
+  text-decoration-thickness: 3px;
+  color: deeppink;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 3%;
+}
+
+main .container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+  color: deeppink;
+  margin-bottom: 1rem;
+}
+
+main h3 {
+  color: deeppink;
+  margin-top: 1.5rem;
+}
+
+main a {
+  color: hotpink;
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100%;
+}

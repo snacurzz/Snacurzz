@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #131313;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+header {
+  background-color: #292929;
+  color: white;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-family: 'Pacifico', sans-serif;
+  color: deeppink;
+}
+
+header .container {
+  padding: 20px;
+}
+
+header nav {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: none;
+  transition: 600ms;
+}
+
+header nav a:hover {
+  color: deeppink;
+}
+
+header nav ul .underline {
+  text-decoration: underline;
+  text-decoration-color: deeppink;
+  text-underline-offset: 13px;
+  text-decoration-thickness: 3px;
+  color: deeppink;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 3%;
+}
+
+.form-section {
+  padding: 20px;
+}
+
+main h2 {
+  color: deeppink;
+}
+
+main p {
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+
+form input::placeholder, textarea::placeholder {
+  color: hotpink;
+}
+    
+form input, textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  background: white;
+  color: hotpink;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  resize: none;
+}
+
+form input:hover, textarea:hover {
+  box-shadow: 0 0 20px rgba(255, 0, 123, 1);
+}
+    
+form button {
+  padding: 10px 20px;
+  background: deeppink;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+    
+form button:hover {
+  transition: 700ms;
+  background: hotpink;
+}
+
+.other-contacts {
+  max-width: 600px;
+  margin: 8rem auto;
+  padding: 1rem;
+  background-color: #292929;
+  border-radius: 8px;
+}
+
+.other-contacts h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: deeppink;
+}
+
+.other-contacts ul {
+  list-style-type: none;
+}
+
+.other-contacts li {
+  margin: 0.7rem 0;
+  font-size: 1rem;
+}
+
+.other-contacts a {
+  color: hotpink;
+  text-decoration: none;
+}
+
+.other-contacts a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100%;
+}

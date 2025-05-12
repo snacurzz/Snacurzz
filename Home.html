@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="description" content="Snacurzz brings you bite-sized joy with quick, delicious, and easy-to-make food recipes. Perfect for snacks, meals, and sweet cravings!" />
+  
+  <meta name="keywords" content="Snacurzz, bite-sized joy, food recipes, quick snacks, easy meals, homemade recipes, cooking ideas, delicious recipes, snack ideas, fast cooking" />
+  
+  <meta name="robots" content="index, follow" />
+  
+  <meta name="author" content="Snacurzz Team" />
+  
+  <meta http-equiv="Content-Language" content="en" />
+  
+  <title>Home - Snacurzz</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="home.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Snacurzz</h1>
+      <nav>
+        <ul>
+          <li><a class="underline transition-link">Home</a></li>
+          
+          <li><a href="About.html" class="transition-link">About us</a></li>
+          
+          <li><a href="Contact.html" class="transition-link">Contact us</a></li>
+          
+          <li><a href="Privacy.html" class="transition-link">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="search">
+          <input type="search" placeholder="Search Recipes..." />
+        </div>
+      </div>
+    </section>
+    
+    <section class="category">
+      <div class="container">
+        <button class="all" onclick="filterRecipes('all')">All</button>
+        <button class="vegan" onclick="filterRecipes('veg')">Veg</button>
+        <button class="non-vegan" onclick="filterRecipes('non-veg')">Non-Veg</button>
+      </div>
+    </section>
+    
+    <section class="recipes">
+      <div class="container">
+        <h2>Recipes &nbsp; &nbsp; <a href="Home.html" class="fas fa-sync transition-link"></a></h2>
+        <div class="recipe-grid">
+          <div class="recipe-card non-veg">
+            <a href="juicyCheeseBurger.html" class="transition-link">
+              <img src="juicyCheeseBurger.jpg" alt="Juicy Cheese Burger" />
+              <h3>Juicy Cheese Burger</h3>
+              <p>Quick and cheesy burger recipe that melts in your mouth.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="garlicCreamPasta.html" class="transition-link">
+              <img src="garlicCreamPasta.jpg" alt="Garlic Cream Pasta" />
+              <h3>Garlic Cream Pasta</h3>
+              <p>Creamy pasta tossed in garlic sauce – rich & easy!</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card non-veg">
+            <a href="chocolateLavaCake.html" class="transition-link">
+              <img src="chocolateLavaCake.jpg" alt="Chocolate Lava Cake" />
+              <h3>Chocolate Lava Cake</h3>
+              <p>Moist and gooey cake bursting with molten chocolate.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="paneerTikkaWrap.html" class="transition-link">
+              <img src="paneerTikkaWrap.jpg" alt="Paneer Tikka Wrap" />
+              <h3>Paneer Tikka Wrap</h3>
+              <p>Spicy grilled paneer cubes wrapped in soft flatbread with crunchy veggies and mint chutney.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card non-veg">
+            <a href="butterChickenWithNaan.html" class="transition-link">
+              <img src="butterChickenWithNaan.jpg" alt="Butter Chicken with Naan" />
+              <h3>Butter Chicken with Naan</h3>
+              <p>Tender chicken chunks simmered in rich, buttery tomato gravy served with fluffy naan.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="vegThaiGreenCurryWithJasmineRice.html" class="transition-link">
+              <img src="vegThaiGreenCurryWithJasmineRice.jpg" alt="Veg Thai Green Curry with Jasmine Rice" />
+              <h3>Veg Thai Green Curry with Jasmine Rice</h3>
+              <p>Aromatic coconut curry loaded with fresh vegetables and Thai herbs, paired with fragrant jasmine rice.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="spaghettiAglioEOlio.html" class="transition-link">
+              <img src="spaghettiAglioEOlio.jpg" alt="Spaghetti Aglio e Olio" />
+              <h3>Spaghetti Aglio e Olio</h3>
+              <p>Simple yet flavorful pasta tossed with garlic, olive oil, chili flakes, and parsley.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card non-veg">
+            <a href="bBQChickenWings.html" class="transition-link">
+              <img src="bBQChickenWings.jpg" alt="BBQ Chicken Wings" />
+              <h3>BBQ Chicken Wings</h3>
+              <p>Crispy wings glazed with smoky-sweet barbecue sauce, perfect for finger-licking bites.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="shahiPaneer.html" class="transition-link">
+              <img src="shahiPaneer.jpg" alt="Shahi Paneer" />
+              <h3>Shahi Paneer</h3>
+              <p>Creamy, royal North Indian curry with soft paneer cubes in a rich cashew-tomato gravy.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card non-veg">
+            <a href="fishTacosWithMangoSalsa.html" class="transition-link">
+              <img src="fishTacosWithMangoSalsa.jpg" alt="Fish Tacos with Mango Salsa" />
+              <h3>Fish Tacos with Mango Salsa</h3>
+              <p>Crispy fish fillets tucked in tortillas, topped with zesty mango salsa and creamy dressing.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="chilliMushroomStirFry.html" class="transition-link">
+              <img src="chilliMushroomStirFry.jpg" alt="Chilli Mushroom Stir-Fry" />
+              <h3>Chilli Mushroom Stir-Fry</h3>
+              <p>Juicy mushrooms stir-fried in spicy Indo-Chinese sauce with crunchy peppers and onions.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card non-veg">
+            <a href="chickenAlfredoLasagna.html" class="transition-link">
+              <img src="chickenAlfredoLasagna.jpg" alt="Chicken Alfredo Lasagna" />
+              <h3>Chicken Alfredo Lasagna</h3>
+              <p>Layered lasagna with creamy Alfredo sauce, tender chicken, and melted cheese in every bite.</p>
+            </a>
+          </div>
+          
+          <div class="recipe-card veg">
+            <a href="falafelPitaPocket.html" class="transition-link">
+              <img src="falafelPitaPocket.jpg" alt="Falafel Pita Pocket" />
+              <h3>Falafel Pita Pocket</h3>
+              <p>Crispy falafels stuffed in warm pita bread with tahini, hummus, and fresh veggies.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Snacurzz. All rights reserved.</p>
+  </footer>
+  
+  <script src="transitionLink.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script>
+    function filterRecipes(category) {
+    const recipes = document.querySelectorAll('.recipe-card');
+    const all = document.querySelector('.all');
+    const veg = document.querySelector('.vegan');
+    const nonVeg = document.querySelector('.non-vegan');
+  
+    recipes.forEach(recipe => {
+      const shouldShow = (category === 'all' || recipe.classList.contains(category));
+      if (shouldShow) {
+        recipe.style.display = 'block';
+        setTimeout(() => {
+          recipe.classList.remove('hide');
+        }, 10);
+      } else {
+        recipe.classList.add('hide');
+        setTimeout(() => {
+          recipe.style.display = 'none';
+        }, 300);
+      }
+    });
+  
+    [all, veg, nonVeg].forEach(btn => {
+      btn.style.textDecoration = "none";
+      btn.style.color = "white";
+    });
+  
+    const selected = { 'all': all, 'veg': veg, 'non-veg': nonVeg }[category];
+    if (selected) {
+      selected.style.textDecoration = "underline";
+      selected.style.textDecorationColor = "deeppink";
+      selected.style.textUnderlineOffset = "13px";
+      selected.style.textDecorationThickness = "3px";
+      selected.style.color = "deeppink";
+    }
+  }
+  
+  const searchInput = document.querySelector('input[type="search"]');
+  searchInput.addEventListener('input', function () {
+    const query = this.value.toLowerCase();
+    const recipes = document.querySelectorAll('.recipe-card');
+  
+    recipes.forEach(recipe => {
+      const title = recipe.querySelector('h3').textContent.toLowerCase();
+      const matches = title.includes(query);
+  
+      if (matches) {
+        recipe.style.display = 'block';
+        
+        setTimeout(() => {
+          recipe.classList.remove('hide');
+        }, 10);
+      } else {
+        recipe.classList.add('hide');
+        
+        setTimeout(() => {
+          recipe.style.display = 'none';
+        }, 100);
+      }
+    });
+  });
+</script>
+</body>
+
+</html>
