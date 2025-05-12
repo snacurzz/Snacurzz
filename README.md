@@ -10,7 +10,7 @@
 - Responsive design
 
 ## Live Website
-[Visit Snacurzz](https://yourusername.github.io/snacurzz/)
+[Visit Snacurzz](http://snacurzz.github.io/Snacurzz/)
 
 ---
 
