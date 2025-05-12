@@ -1,16 +1,17 @@
-## Hi there 👋
+# Snacurzz
 
-<!--
-**snacurzz/Snacurzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Snacurzz** is a simple, clean, and user-friendly recipe website featuring delicious food recipes with clear step-by-step instructions — no signups, no videos, no distractions!
 
-Here are some ideas to get you started:
+## Features
+- 13+ handpicked recipes
+- Step-by-step instructions
+- Fast-loading static website
+- AdSense-friendly structure
+- Responsive design
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Live Website
+[Visit Snacurzz](https://yourusername.github.io/snacurzz/)
+
+---
+
+© 2025 Snacurzz. All rights reserved.
