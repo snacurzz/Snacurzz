@@ -10,7 +10,7 @@
 - Responsive design
 
 ## Live Website
-[Visit Snacurzz](http://snacurzz.github.io/Snacurzz/)
+[Visit Snacurzz](https://snacurzz.netlify.app)
 
 ---
 
