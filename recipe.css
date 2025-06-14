@@ -69,11 +69,6 @@ main strong {
   font-size: 1.2rem;
 }
 
-main h3 {
-  color: deeppink;
-  margin: 2rem 0;
-}
-
 main ul, ol {
   padding-left: 1.5rem;
   margin-top: 0.5rem;
